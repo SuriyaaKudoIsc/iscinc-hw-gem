@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.platform                    = Gem::Platform::RUBY
-  s.name                        = "iscinc-hw"
+  s.name                        = 'iscinc-hw'
   s.version                     = VERSION
-  s.default_executable          = "iscinc-hw"
+  s.default_executable          = 'iscinc-hw'
   s.summary                     = 'A hello world gem for iSC Inc. projects.'
   s.description                 = 'This Ruby gem tests the commands of a iSC Inc. Ruby project.'
 
@@ -14,12 +14,12 @@ Gem::Specification.new do |s|
   s.homepage                    = 'https://github.com/SuriyaaKudoIsc/iscinc-hw-gem'
 
   s.license                     = 'Apache-v2'
-  s.date                        = %q{2015-12-05}
+  s.date                        = '2015-12-05'
 
-  s.files                       = ["README.md", "Rakefile", "lib/iscinc-hw.rb", "lib/iscinc-hw/translator.rb", "bin/iscinc-hw"]
-  s.test_files                  = ["test/test_iscinc-hw.rb"]
-  s.homepage                    = %q{http://rubygems.org/gems/iscinc-hw}
-  s.require_paths               = ["lib"]
+  s.files                       = ['README.md', 'Rakefile', 'lib/iscinc-hw.rb', 'lib/iscinc-hw/translator.rb', 'bin/iscinc-hw']
+  s.test_files                  = ['test/test_iscinc-hw.rb']
+  s.homepage                    = 'http://rubygems.org/gems/iscinc-hw'
+  s.require_paths               = ['lib']
 
 #  s.add_dependency '', version
 
