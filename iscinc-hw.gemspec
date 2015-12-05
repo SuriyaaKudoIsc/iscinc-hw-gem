@@ -20,7 +20,6 @@ Gem::Specification.new do |s|
 
   s.files                       = ['README.md', 'Rakefile', 'lib/iscinc-hw.rb', 'lib/iscinc-hw/translator.rb', 'bin/iscinc-hw']
   s.test_files                  = ['test/test_iscinc-hw.rb']
-  s.homepage                    = 'http://rubygems.org/gems/iscinc-hw'
   s.require_paths               = ['lib']
 
 #  s.add_dependency '', version
