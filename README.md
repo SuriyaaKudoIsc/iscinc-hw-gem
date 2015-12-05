@@ -4,13 +4,13 @@
 
 
 ## Install Gem
-Add this to your **`Gemfile`**:
+*Add* this to your **`Gemfile`**:
 
 ```ruby
 require 'iscinc-hw'
 ```
 
-Run Bundler in the command line:
+Run **Bundler** *in the command line*:
 
 ```cl
 bundle install
