@@ -1,27 +1,27 @@
 Gem::Specification.new do |s|
-  s.name               = "iscinc-hw"
-  s.version            = "1.1.0"
-  s.default_executable = "iscinc-hw"
+  s.platform                    = Gem::Platform::RUBY
+  s.name                        = "iscinc-hw"
+  s.version                     = VERSION
+  s.default_executable          = "iscinc-hw"
+  s.summary                     = 'A hello world gem for iSC Inc. projects.'
+  s.description                 = 'This Ruby gem tests the commands of a iSC Inc. Ruby project.'
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Suriyaa Kudo"]
-  s.date = %q{2015-12-05}
-  s.description = %q{A hello world gem for iSC Inc. projects}
-  s.email = %q{SuriyaaKudoIsc@users.noreply.github.com}
-  s.files = ["Rakefile", "lib/iscinc-hw.rb", "lib/iscinc-hw/translator.rb", "bin/iscinc-hw"]
-  s.test_files = ["test/test_iscinc-hw.rb"]
-  s.homepage = %q{http://rubygems.org/gems/iscinc-hw}
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.2}
-  s.summary = %q{Hello World!}
+#  s.required_ruby_version      = '>= 2.1.5'
+#  s.required_rubygems_version  = '>= 2.2.2'
 
-  if s.respond_to? :specification_version then
-    s.specification_version = 3
+  s.author                      = 'Suriyaa Kudo'
+  s.email                       = 'SuriyaaKudoIsc@users.noreply.github.com'
+  s.homepage                    = 'https://github.com/SuriyaaKudoIsc/iscinc-hw-gem'
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-    else
-    end
-  else
-  end
+  s.license                     = 'Apache-v2'
+  s.date                        = %q{2015-12-05}
+
+  s.files                       = ["README.md", "Rakefile", "lib/iscinc-hw.rb", "lib/iscinc-hw/translator.rb", "bin/iscinc-hw"]
+  s.test_files                  = ["test/test_iscinc-hw.rb"]
+  s.homepage                    = %q{http://rubygems.org/gems/iscinc-hw}
+  s.require_paths               = ["lib"]
+
+#  s.add_dependency '', version
+
+#  s.add_dependency 'bundler',         '>= 1.10.6'
 end
-
