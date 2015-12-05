@@ -15,3 +15,12 @@ Run **Bundler** *in the command line*:
 ```cl
 bundle install
 ```
+
+## Usage
+Run an iSC Inc. project in the command line:
+
+```cl
+ruby sampleproject.rb
+```
+
+An output with *"Hello World!"* will be printed!
