@@ -1,2 +1,3 @@
-# iscinc-hw-gem
-The "Hello World!" gem for iSC Inc. projects.
+# The "Hello World!" Ruby gem for iSC Inc. projects
+
+> Include this Ruby gem in all Ruby-coding projects @iSCInc.
