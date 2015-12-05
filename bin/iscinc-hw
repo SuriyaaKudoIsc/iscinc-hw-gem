@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'iscinc-hw'
+puts iscinc-hw.hi(ARGV[0])
