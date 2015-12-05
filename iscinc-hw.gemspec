@@ -2,7 +2,7 @@ version = File.read(File.expand_path('../PROJECT_VERSION', __FILE__)).strip
 
 Gem::Specification.new do |s|
   s.name                = 'iscinc-hw'
-  s.version             = "iscinc-hw:PROJECT_VERSION"
+  s.version             = version
   s.default_executable  = 'iscinc-hw'
   s.summary             = 'A hello world gem for iSC Inc. projects.'
   s.description         = 'This Ruby gem tests the commands of a iSC Inc. Ruby project.'
