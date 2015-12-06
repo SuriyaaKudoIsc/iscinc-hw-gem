@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.author    = 'Suriyaa Kudo'
   s.email     = 'SuriyaaKudoIsc@users.noreply.github.com'
-  s.homepage  = 'https://github.com/SuriyaaKudoIsc/iscinc-hw-gem'
+  s.homepage  = 'https://github.com/iSCInc/iscinc-hw-gem'
 
   s.license = 'Apache-v2'
   s.date    = '2015-12-05'
